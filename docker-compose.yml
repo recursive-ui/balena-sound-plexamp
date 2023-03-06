@@ -74,7 +74,7 @@ services:
     environment:
       SET_HOSTNAME: balena
 
-  plex: 
+  plexamp: 
     build: ./plugins/plexamp
     restart: on-failure
     privileged: true
