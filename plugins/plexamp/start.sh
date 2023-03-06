@@ -1,0 +1,1 @@
+node /opt/plexamp/plexamp/js/index.js

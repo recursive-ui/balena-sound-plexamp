@@ -1,0 +1,15 @@
+version: "2"
+
+volumes:
+  plex_settings:
+
+services:
+  plex: 
+    build: ./
+    restart: on-failure
+    privileged: true
+    network_mode: host
+    ports:
+      - 32500:32500
+    volumes:
+      - plex_settings:/root/.local/share/Plexamp

@@ -47,3 +47,10 @@ To install UPnP plugin add the following to the `sevices` section on your `docke
     ports:
       - 49494:49494
 ```
+
+### Plexamp
+
+The headless Plexamp plugin allows for casting to the fleet from the Plex(amp) mobile/desktop/web apps. A Plex Pass is required to use this plugin.
+
+Plexamp will prompt you for a claim token from [plex.tv/claim](https://www.plex.tv/claim/) and a player name, this name is the name that will show in the Plex(amp) app.
+Once you have logged in and set a player name, you can exit out of the terminal (you may need to press control+c if plex starts) and restart the Plexamp plugin.
