@@ -1,1 +1,2 @@
-node /opt/plexamp/plexamp/js/index.js
+cd /opt/plexamp/plexamp/
+node js/index.js
